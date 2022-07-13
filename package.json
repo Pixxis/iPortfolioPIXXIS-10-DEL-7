@@ -1,0 +1,25 @@
+{
+  "name": "iportfoliopixxis-10-del-7",
+  "version": "1.0.0",
+  "description": "portfolio page",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Pablo Pizzi",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.23.4",
+    "fractional": "^1.0.0",
+    "http-server": "^14.1.1",
+    "jquery": "^3.6.0",
+    "nuxt": "^2.15.8",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.6.2"
+  }
+}
